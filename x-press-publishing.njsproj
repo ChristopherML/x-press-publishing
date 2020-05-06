@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9a9260ae-9207-4d81-9116-37818a55a158}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>migration.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">16.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="api\api.js" />
+    <Content Include="api\artists.js" />
+    <Content Include="api\issues.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="api\series.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="database.sqlite" />
+    <Content Include="index.html" />
+    <Content Include="favicon.png" />
+    <Content Include="package-lock.json" />
+    <Content Include="package.json" />
+    <Content Include="migration.js" />
+    <Content Include="public\js\bundle.js.map" />
+    <Content Include="seed.js" />
+    <Content Include="server.js" />
+    <Content Include="test\test.sqlite" />
+    <Content Include="webpack.config.js" />
+    <Content Include="src\index.js" />
+    <Content Include="test\seed.js" />
+    <Content Include="test\test.js" />
+    <Content Include="public\css\reset.css" />
+    <Content Include="public\css\style.css" />
+    <Content Include="public\img\artist.svg" />
+    <Content Include="public\img\logo-mobile.svg" />
+    <Content Include="public\img\logo.svg" />
+    <Content Include="public\js\bundle.js" />
+    <Content Include="src\utils\XPress.js" />
+    <Content Include="src\views\App.js" />
+    <Content Include="src\views\Artist.js" />
+    <Content Include="src\views\Landing.js" />
+    <Content Include="src\views\Series.js" />
+    <Content Include="src\utils\camelcase-keys\package.json" />
+    <Content Include="src\utils\camelcase-keys\readme.md" />
+    <Content Include="src\utils\camelcase-keys\index.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="api\" />
+    <Folder Include="public" />
+    <Folder Include="public\css" />
+    <Folder Include="public\img" />
+    <Folder Include="public\js" />
+    <Folder Include="src" />
+    <Folder Include="src\utils" />
+    <Folder Include="src\utils\camelcase-keys" />
+    <Folder Include="src\views" />
+    <Folder Include="test" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

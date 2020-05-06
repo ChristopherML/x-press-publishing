@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "x-press-publishing", "x-press-publishing.njsproj", "{9A9260AE-9207-4D81-9116-37818A55A158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A9260AE-9207-4D81-9116-37818A55A158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A9260AE-9207-4D81-9116-37818A55A158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A9260AE-9207-4D81-9116-37818A55A158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A9260AE-9207-4D81-9116-37818A55A158}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F84774A-3280-4C32-9BB8-2EB96C0B6B1E}
+	EndGlobalSection
+EndGlobal
